@@ -1,0 +1,257 @@
+/*** Exercise 1: Twitter CSS ***/
+
+/*
+#### You should not have to change the given property values. ###
+*/
+
+/*** Completed body style below ***/
+body {
+    /* background-color: #e6ecf0; */
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*** Removes default style from links ***/
+a {
+ 	text-decoration: none;
+ 	color: black;
+}
+
+/***********************************************
+********** Add to the selectors below **********
+************************************************/
+
+/* You only need to add where it says "Add properties below" */
+
+
+/*** Header and banner styles below ***/
+#header {
+    background-color: white;
+}
+
+#header ul {
+	margin: 0px;
+	padding: 3px;
+	
+	/* Add properties below */
+    margin-left: 390px;
+    float: right;
+    background-color: white;
+}
+
+#header ul li {
+	margin-right: 20px;
+	font-weight: bold;
+	list-style: none; /* Gets rid of list bullet points */
+	text-align: center;
+	
+	/* Add a proper display property: We want the stats to have 
+	a height, but also appear side-by-side */
+    display: inline-block;
+    background-color: white;
+}
+
+.birdLogo {
+	/* Add properties below */
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	width: 30px;
+}
+
+.bannerPic {
+	display: block;
+	width: 100%;
+
+	/* Add properties below */
+	height: 300px;
+}
+
+
+/*** Timeline styles below ***/
+
+#timeline {
+	border-radius: 10px;
+	background-color: white;
+
+	/* Add properties below */
+	margin-left: 390px;
+	margin-top: 20px;
+	width: 600px;
+	position: absolute;
+}
+
+.timelineHeader {
+	border-bottom: 1px solid grey;
+}
+
+.timelineHeader ul {
+	margin: 0px;
+}
+
+.timelineHeader ul li {
+	padding: 10px;
+	margin-right: 20px;
+	font-size: 150%;
+	font-weight: bold;
+
+	/* Add properties below */
+	display: inline-block;
+	list-style: none;
+}
+
+
+/*** Tweet styles below ***/
+
+.tweet {
+	background-color: white;
+	
+	/* Add properties below */
+	min-height: 100px;
+	overflow: auto;
+	border-bottom: 1px solid grey;
+	width: 600px;
+}
+
+/* For the div that holds the tweet icon */
+.tweetIconContainer {
+	/* Add properties below */
+	width: 80px;
+	float: left;
+}
+
+.tweetIcon {
+	/* Add properties below */
+	width: 60px;
+	height: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+
+.tweetContent {
+	margin: 0px;
+
+	/* Add properties below */
+	width: 520px;
+	margin-left: 80px;
+}
+
+/* For pictures inside tweets (like the Robarts pic) */
+.tweetContentPicture {
+	/* Add properties below */
+	max-width: 500px;
+	margin-top: 20px;
+}
+
+
+/* Style the big profile picture circle here. */
+#bigProfilePicCircle {
+	/* Add properties below */
+	margin-top: 120px;
+	margin-left: 100px;
+	border: solid white;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+
+/*** Profile info box styles below ***/
+
+#profileInfo {
+	padding: 10px;
+	
+	/* Add properties below */
+	margin-top: 30px;
+	margin-left: 400px;
+	min-height: 300px;
+	width: 500px;
+	float: left;
+}
+
+
+/** Some font color classes for you to use. **/
+.grey{
+    color: grey;
+}
+
+.nameTitle{
+    /* color: #c53a6f; */
+    color: white;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.description {
+    /* color: #d17d9d; */
+    color: white;
+    font-family: "Verdana";
+}
+
+
+.hashtag {
+	color: #5088e9;
+}
+
+#trending {
+	padding: 15px;
+	background-color: white;
+	height: 500px;
+	margin-left: 1010px;
+	margin-top: 20px;
+	border-radius: 10px;
+	width: 400px;
+	position: absolute;
+}
+
+.trendingTopics {
+	padding: 5px;
+	background-color: white;
+}
+
+.trendingTopics ul {
+	margin: 0px;
+	padding: 3px;
+
+	/* Add properties below */
+
+}
+
+.trendingTopics ul li {
+	font-weight: bold;
+	list-style: none; /* Gets rid of list bullet points */
+	margin-bottom: 2px;
+
+	/* Add a proper display property: We want the stats to have
+	a height, but also appear side-by-side */
+	display: block;
+}
+
+.linking {
+	color: #5088e9;
+	text-decoration: underline;
+}
+
+#youtubeVideo {
+	padding: 10px;
+	background-color: white;
+	position: absolute;
+	margin-left: 1010px;
+	margin-top: 570px;
+	border-radius: 10px;
+	width: 400px;
+	height: 450px;
+}
+
+.videoTitle {
+	color: mediumslateblue;
+}
+
+.logo{
+    margin-left: 40px;
+    width: 150px;
+    margin-top: 5px;
+}
