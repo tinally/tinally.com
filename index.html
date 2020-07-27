@@ -13,11 +13,11 @@
     <!-- Icons -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-<body>
+<body background="images/background.jpg">
     <!-- The header -->
     <div class="header">
         <!-- Website logo goes in here -->
-		<img class="logo" src="images/title.JPG" />
+		<!-- <img class="logo" src="images/title.JPG" /> -->
         <ul>
             <!-- Style the list element: Logo and link -->
             <li><a href="https://www.linkedin.com/in/tinally/"><img class='contactLogo' src="images/linkedin.png" /></a></li>
@@ -27,23 +27,42 @@
     </div>
 
     <!-- Profile picture goes in here -->
-    <div class="imgbox">
+    <!-- <div class="imgbox">
         <img src="images/me.JPG" style="width:100%; height:auto;"/>
+    </div> -->
+
+    <!-- Self Introduction -->
+    <div class="row container">
+        <div class="column left text-center">
+            <img class="experience-picture" src="images/profile.JPG" />
+            <div><i class="material-icons">school</i><strong> University of Toronto</strong></div>
+            <div><i class="material-icons">date_range</i><strong> September 2017 - present </strong></div>
+        </div>
+        <div class="column right">
+            <h2>Hi, I'm Tina. </h2>
+            <p>I'm an undergraduate student at the University of Toronto studying Computer Science and Statistics and specializing in artificial intelligence.</p>
+            <p>I am interested in developing computer science as a force for social good.  
+                My research is in the area of artificial intelligence and human-computer interaction. 
+                I build tools and applications to support people who are facing social injustice and to raise awareness of the biases against them. 
+                I want to utilize the potential of machine intelligence and interactive graphics for identifying biases and supporting underrepresented groups.  
+            </p>
+            <p>I am an inquisitive and quick learner, a team player, and a developer. I love new challenges and I believe I grow the best this way. A fun fact about me is I have lived in three countries in the past ten years for education.  </p>
+        </div>
     </div>
 
     <!-- Here's my experience -->
-    <div class="title text-center"><strong>&#8212 Here are my past experiences &#8212</strong></div>
-
+    <!-- <div class="title bold text-center">&#8212 Here are my experiences &#8212</div> -->
+    
     <!-- Google -->
-    <div class="container">
-        <div class="column left text-right">
+    <div class="row container">
+        <div class="column left text-center">
             <img class="experience-picture" src="images/google_intern.jpeg" />
-        </div>
-        <div class="column right">
-            <div class=company-title><a href="https://www.tensorflow.org/tfx" target="_blank">Google TensorFlow Extended</a><img class="tf-logo" src="images/tensorflow.png" /></div>
             <div><i class="material-icons">work</i><strong> Software Engineering Intern</strong></div>
             <div><i class="material-icons">location_on</i><strong> Mountain View, CA (remote)</strong></div>
             <div><i class="material-icons">date_range</i><strong> May 2020 - August 2020</strong></div>
+        </div>
+        <div class="column right">
+            <div class=company-title><a href="https://www.tensorflow.org/tfx" target="_blank">Google TensorFlow Extended</a></div>
             <div><i class="material-icons">computer</i><strong> Python, TensorFlow, Apache Beam, MapReduce, Protocol Buffers</strong></div>
             <br>
             <div">Google TFX is an end-to-end platform for deploying production ML pipelines. My team works on democratize access to the TFX machine learning technology through open source software. 
@@ -56,25 +75,25 @@
             </div>
         </div>
     </div>
-      
+    
     <!-- AI4Good -->
-    <div class="container">
-        <div class="column left text-right">
+    <div class="row container">
+        <div class="column left text-center">
             <img class="experience-picture" src="images/ai4good.jpeg" />
-        </div>
-        <div class="column right">
-            <div class=company-title><a href="https://www.ai4goodlab.com/" target="_blank">AI For Social Good Summer Lab at Mila</a><img class="mila-logo" src="images/mila.jpg" /></div>
             <div><i class="material-icons">work</i><strong> Student Researcher</strong></div>
             <div><i class="material-icons">location_on</i><strong> Montreal, QC</strong></div>
             <div><i class="material-icons">date_range</i><strong> May 2019 - July 2019</strong></div>
-            <div><i class="material-icons">computer</i><strong> Machine Learning, Computer Vision, Video Preprocessing, ANOVA, NumPy</strong></div>
+        </div>
+        <div class="column right">
+            <div class=company-title><a href="https://www.ai4goodlab.com/" target="_blank">AI For Social Good Summer Lab at Mila</a></div>
+            <div><i class="material-icons">computer</i><strong> Python, Machine Learning, Computer Vision, Video Preprocessing, ANOVA, NumPy</strong></div>
             <br>
             <div>The AI4Good Lab supports diversity and inclusion in AI research and advocates for developing AI as a force for social good.
                 <br><br>
                 My research project is Ad Awareness, analyzing gender bias in commercials from Youtube-8M dataset with machine learning and statistical models. 
                 <br><br>
                 Our team created a nudity detection tool that improved the accuracy of existing tools. 
-                As a result of this project, I presented the conclusions from our statistical analysis on nudity in ads to over 500 people. (e.g., female and male nudity percentage, correlation between presence nudity and higher views, etc).
+                As a result of this project, I <a href="https://docs.google.com/presentation/d/1IwwDZ2nPBOFqHZ5ru9BTmMZpZXwzJKs8LWIjV-kMlGw/edit?usp=sharing">presented</a> the conclusions from our statistical analysis on nudity in ads to over 500 people. (e.g., female and male nudity percentage, correlation between presence nudity and higher views, etc).
             </div>
         </div>
     </div>

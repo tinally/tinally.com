@@ -8,13 +8,13 @@
 body {
     /* background-color: #e6ecf0; */
 	margin: 0;
-	font-family: "Brandon Grotesque";
+	font-family: "brandon grotesque", brandon;
+	background-size: 100%;
 }
 
 /*** Removes default style from links ***/
 a {
  	text-decoration: none;
- 	color: black;
 }
 
 /***********************************************
@@ -26,15 +26,16 @@ a {
 
 /*** Header and banner styles below ***/
 .header {
-    background-color: white;
+	background-color: white;
+	width: 100%;
+	height: 55px;
 }
 
 .header ul {
 	margin: 0px;
-	padding: 3px;
+	padding: 2px;
 	
 	/* Add properties below */
-    margin-left: 390px;
     float: right;
     background-color: white;
 }
@@ -57,38 +58,6 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
 	width: 30px;
-}
-
-/*** Timeline styles below ***/
-
-#timeline {
-	border-radius: 10px;
-	background-color: white;
-
-	/* Add properties below */
-	margin-left: 390px;
-	margin-top: 20px;
-	width: 600px;
-	position: absolute;
-}
-
-.timelineHeader {
-	border-bottom: 1px solid grey;
-}
-
-.timelineHeader ul {
-	margin: 0px;
-}
-
-.timelineHeader ul li {
-	padding: 10px;
-	margin-right: 20px;
-	font-size: 150%;
-	font-weight: bold;
-
-	/* Add properties below */
-	display: inline-block;
-	list-style: none;
 }
 
 .imgbox {
@@ -140,15 +109,12 @@ a {
 
 .title{
 	position: relative;
-	margin-top: 30px;
-	color: black;
-	font-size: 250%;
-	margin-bottom: 20px;
-}
-
-.linking {
-	color: #5088e9;
-	text-decoration: underline;
+	color: white;
+	margin-top: 20px;
+	font-size: 200%;
+	font-family: "brandon grotesque", brandon;
+	font-style: normal;
+	font-weight: 100;
 }
 
 .logo{
@@ -171,7 +137,8 @@ a {
 
 .company-title {
 	font-size: 25px;
-	color: #3377CC;
+	/* color: #3377CC; */
+	color: white;
 	margin-bottom: 5px;
 }
 
@@ -182,19 +149,22 @@ a {
   }
   
 .left {
-	width: 40%;
+	width: 50%;
+	color: white;
 }
 
 .right {
 	font-size: 17px;
-	font-family: "roboto";
-	color: #50555C;
-	width: 55%;
+	font-family: roboto;
+	color:white;
+	width: 50%;
 	margin-bottom: 20px;
 }
 
 .experience-picture {
 	position: relative;
 	margin-top: 10px;
-	width: 80%;
+	margin-bottom: 10px;
+	max-width: 300px;
+	max-height: 300px;
 }
